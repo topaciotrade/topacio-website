@@ -6959,17 +6959,19 @@ div.team-slots span {
 
 div.team-slots span.team-img.team-marketing-1 {
     margin: 0 10px!important;
-    background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQERvY0Nflls8Q/profile-displayphoto-shrink_200_200/0/1642891089753?e=1651104000&v=beta&t=Gvg1QR45ChIXyp2CDQhh1Xkcgrl03wn1K9SB-6sgt88) !important;
+    /*background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQERvY0Nflls8Q/profile-displayphoto-shrink_200_200/0/1642891089753?e=1651104000&v=beta&t=Gvg1QR45ChIXyp2CDQhh1Xkcgrl03wn1K9SB-6sgt88) !important;*/
+    background-image: url(./img/jorge.jpeg) !important;
     background-size: 190% !important;
     background-position: 83% 64%!important;
     background-repeat: no-repeat!important;
 }
 
 
+/*    background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQHPUzA4AfUj4Q/profile-displayphoto-shrink_200_200/0/1606614505808?e=1651104000&amp;v=beta&amp;t=Tyu9ZZ3ZAW8SY7Crywc6oKUVHOJoj4aIjpELiCehIX8) !important;*/
 div.team-slots span.team-img.team-marketing-2 {
     margin: 0 10px!important;
-    background-image: url(https://media-exp1.licdn.com/dms/image/C4D03AQHPUzA4AfUj4Q/profile-displayphoto-shrink_200_200/0/1606614505808?e=1651104000&amp;v=beta&amp;t=Tyu9ZZ3ZAW8SY7Crywc6oKUVHOJoj4aIjpELiCehIX8) !important;
-    background-size: 190% !important;
+    background-image: url(./img/lucas.jpeg) !important;
+    background-size: 110% !important;
     background-position: 83% 64%!important;
     background-repeat: no-repeat!important;
 }
@@ -7015,8 +7017,9 @@ div.team-slots span.team-img.team-marketing-2 {
     text-transform: uppercase;
 }
 
+    /*background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQELUX3q4fpYVA/profile-displayphoto-shrink_800_800/0/1602320142109?e=1650499200&v=beta&t=yNFpMDFbwWkWGapiaS5pVrCfRyX7YTpCeXyMTL7rsgY) !important;*/
 span.team-img.team-ceo {
-    background-image: url(https://media-exp1.licdn.com/dms/image/C4E03AQELUX3q4fpYVA/profile-displayphoto-shrink_800_800/0/1602320142109?e=1650499200&v=beta&t=yNFpMDFbwWkWGapiaS5pVrCfRyX7YTpCeXyMTL7rsgY) !important;
+  background-image: url(./img/julio_vinachi.jpeg) !important;
 }
 
 /*https://mobile.twitter.com/BitcoinersLa*/
