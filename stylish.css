@@ -6922,11 +6922,16 @@ div.team-slots span {
 
     .col-marketing{
       flex-flow: column!important;
+      flex-wrap: wrap!important;
     }
-    .team-img.team-marketing-1,
-    .team-img.team-marketing-2{
+
+    span.team-img.team-marketing-1,
+    span.team-img.team-marketing-2,
+    #powerful .example2>span:nth-of-type(5n+1),
+    #powerful .example2>span:nth-of-type(5n+2){
         width: 250px!important;
-        height: 250px!important;      
+        height: 250px!important; 
+        margin: 1em auto!important;   
     }
 }
 
