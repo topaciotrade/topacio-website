@@ -6901,8 +6901,8 @@ div.team-slots {
 
 div.team-slots span {
     border-radius: 50%;
-    width: 150px !important;
-    height: 150px !important;
+    width: 180px !important;
+    height: 180px !important;
     position: initial !important;
 }
 
@@ -6968,6 +6968,20 @@ div.team-slots span {
 *  Estilos Custom 
 * -----------------------------------------
 */
+
+.team-img p {
+  font-family: 'Montserrat', sans-serif!important;
+}
+
+
+.team-img p:nth-child(1) {
+  font-size: 12px!important;
+    width: 180px!important;
+}
+.team-img p:nth-child(2) {
+  font-size: 14px!important;
+    width: 180px!important;
+}
 
 .team-img.no-profile-public {
     background-image: url(./img/topacio_200px.png)!important;
