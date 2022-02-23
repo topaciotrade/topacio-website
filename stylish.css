@@ -7087,9 +7087,14 @@ span.team-img {
     transition: 1s box-shadow ease;
 }
 
+    /*
+      Borde interno -
+      box-shadow: #75ece1 0px 0px 4px inset!important;
+      transform: scale(0.99);*/
 span.team-img:hover {
     box-shadow: #75ECE1 0px 0px 10px !important;
     border: solid 3px #98DF98;
+    offset: inherit;
 }
 
 span.team-img:after {
