@@ -1,0 +1,93 @@
+/* -------------------------------- 
+
+Main Components 
+
+-------------------------------- */
+@media only screen and (min-width: 1050px) {
+    body[data-hijacking="on"] {
+        overflow: hidden;
+    }
+}
+
+.cd-section {
+    height: 100vh;
+}
+
+[data-animation="parallax"] .cd-section>div,
+[data-animation="fixed"] .cd-section>div,
+[data-animation="opacity"] .cd-section>div {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media only screen and (min-width: 1050px) {
+    [data-hijacking="on"] .cd-section {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    [data-hijacking="on"] .cd-section>div {
+        visibility: visible;
+    }
+
+    [data-hijacking="off"] .cd-section>div {
+        opacity: 0;
+    }
+
+    [data-animation="rotate"] .cd-section {
+        /* enable a 3D-space for children elements */
+        -webkit-perspective: 1800px;
+        -moz-perspective: 1800px;
+        perspective: 1800px;
+    }
+
+    [data-hijacking="on"][data-animation="rotate"] .cd-section:not(:first-of-type) {
+        -webkit-perspective-origin: center 0;
+        -moz-perspective-origin: center 0;
+        perspective-origin: center 0;
+    }
+
+    [data-animation="opacity"] .cd-section.visible>div {
+        z-index: 1;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .cd-section:first-of-type>div::before {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .cd-section>div {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        /* Force Hardware Acceleration */
+        -webkit-transform: translateZ(0);
+        -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+        -o-transform: translateZ(0);
+        transform: translateZ(0);
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+    }
+
+    [data-hijacking="on"] .cd-section>div {
+        position: absolute;
+    }
+
+    [data-animation="rotate"] .cd-section>div {
+        -webkit-transform-origin: center bottom;
+        -moz-transform-origin: center bottom;
+        -ms-transform-origin: center bottom;
+        -o-transform-origin: center bottom;
+        transform-origin: center bottom;
+    }
+}
