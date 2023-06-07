@@ -1,35 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/topacio-website/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="title"
+      content="Topacio Trade - Your universal assets"
+    />
+    <meta name="image" content="https://www.topacio.trade/img/preview.png" />
+    <meta
+      name="description"
+      content="Topacio Trade is building a universal assets widht blockchains dapps integration."
+    />
     <title>Topacio Trade</title>
-    <meta name="description" content="Topacio is a best powerful tool in the crypto word.">
-    <meta name="keywords" content="Topacio,trade,trading,crypto,crypto currency,coin,token,NFT,DEFI">
-    
-    <meta property="og:site_name" content="Topacio">
-    <meta property="og:title" content="Overview">
-    <meta property="og:image" content="/opengraph.png">
-    <meta property="og:description" content="Topacio is the most powerfull tool to increase your profits and lower your risks when trading assets. In the trading word">
-    <meta property="og:url" content="http://topacio.trade/">
-    <meta property="og:type" content="website">
-    
-    <link rel="canonical" href="http://topacio.trade/">
+    <link href="https://www.topacio.trade/css/main.css" rel="stylesheet" />
+    <link href="https://www.topacio.trade/css/custom-style.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/brands.min.css" integrity="sha512-+oRH6u1nDGSm3hH8poU85YFIVTdSnS2f+texdPGrURaJh8hzmhMiZrQth6l56P4ZQmxeZzd2DqVEMqQoJ8J89A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- Fonts -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.0.0/css/all.css" integrity="sha384-3B6NwesSXE7YJlcLI9RpRqGf2p/EgVH8BgoKTaUrmKNDkHPStTQ3EyoYjCGXaOTS" crossorigin="anonymous">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+    <!-- Google tag (gtag.js) -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-W5Y4MLKBY0"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-    <script type="module" crossorigin src="/topacio-website/assets/index.301182aa.js"></script>
-    <link rel="modulepreload" href="/topacio-website/assets/vendor.c959d006.js">
-    <link rel="stylesheet" href="/topacio-website/assets/index.ba3aaf9a.css">
+        gtag('config', 'G-W5Y4MLKBY0');
+      </script>
+
+    <!-- favicon -->
+
+    <link rel="icon" href="https://www.topacio.trade/favicon.ico">
+<!-- 
+    <link rel="icon" href="https://www.topacio.trade/favicon.ico" />
+    <link rel="apple-touch-icon" href="https://www.topacio.trade/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png"> 
+  -->
+    <link rel="manifest" href="https://www.topacio.trade/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <script type="module" crossorigin src="https://www.topacio.trade/assets/index-717e76fc.js"></script>
+    <link rel="stylesheet" href="https://www.topacio.trade/assets/index-61f04d19.css">
   </head>
-  <body class="landing-page">
-    <div id="app-topacio"></div>
+  <body cz-shortcut-listen="true">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <canvas id="projector"
+      >Your browser does not support the Canvas element.</canvas
+    >
+
+    <div id="app"></div>
+    <!-- dragable -->
+    <script src="https://www.topacio.trade/js/lightweight-charts.standalone.production.js"></script>
+
+
+    <!-- <script src="/js/test-dev-lightweight-charts.standalone.production.js"></script> -->
+    <script src="https://use.fontawesome.com/7b48933926.js"></script>
+    <script src="//code.createjs.com/easeljs-0.7.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    <script src="https://www.topacio.trade/js/app.js?v=17042023"></script>
     
   </body>
 </html>
