@@ -2,9 +2,9 @@
     "name": "DApp Topacio",
     "mailto": "jv@topacio.trade",
     "short_name": "Topacio Trade",
-    "url":"https://www.topacio.trade",
+    "url":"https://wwww.topacio.trade",
     "id":"/?homescreen=1",
-    // "start_url": "https://www.topacio.trade/",
+    // "start_url": "https://wwww.topacio.trade/",
     "icons": [
         {
             "src": "/img/favicon/android-icon-36x36.png",
@@ -53,7 +53,7 @@
     "related_applications": [
         {
             "platform": "web3",
-            "url": "https://www.topacio.trade"
+            "url": "https://wwww.topacio.trade"
         }
     ],
     "description": "The Best & powerfull tool for trade!",

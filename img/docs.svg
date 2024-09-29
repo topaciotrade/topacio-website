@@ -1,6 +1,41 @@
-<svg version="1.1" id="Uploaded to svgrepo.com" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="32px" height="32px" viewBox="0 0 32 32" style="enable-background:new 0 0 32 32;" xml:space="preserve">
-<style type="text/css">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   id="Uploaded to svgrepo.com"
+   x="0px"
+   y="0px"
+   width="32px"
+   height="32px"
+   viewBox="0 0 32 32"
+   style="enable-background:new 0 0 32 32;"
+   xml:space="preserve"
+   sodipodi:docname="docs.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25, custom)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs3" /><sodipodi:namedview
+   id="namedview3"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:zoom="14.875"
+   inkscape:cx="16"
+   inkscape:cy="16"
+   inkscape:window-width="1332"
+   inkscape:window-height="930"
+   inkscape:window-x="0"
+   inkscape:window-y="0"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="g3" />
+<style
+   type="text/css"
+   id="style1">
 	.isometric_zeven{fill:#FF7344;}
 	.isometric_acht{fill:#F05A28;}
 	.isometric_negen{fill:#BE1E2D;}
@@ -18,14 +53,29 @@
 	.st9{fill:#F5DF89;}
 	.st10{fill:#80CCBE;}
 </style>
-<g>
-	<polygon class="isometric_twaalf" points="14.492,10.875 18.44,8.64 18.44,4.73 7.437,11.082 7.437,28.73 14.492,24.59 	"/>
-	<path class="isometric_dertien" d="M7.437,11.082V28.73L7.062,28.5L7,10.875L18.062,4.5l0.377,0.23L7.437,11.082z M17.217,9.344
-		V8.028l-8.557,4.94v1.875l5.832-3.408v-0.561L17.217,9.344z M8.66,16.608v1.765l5.832-3.415v-1.761L8.66,16.608z M8.66,20.138
-		v1.765l5.832-3.422v-1.761L8.66,20.138z M8.66,23.667v1.765l5.832-3.429v-1.761L8.66,23.667z"/>
-	<polygon class="isometric_acht" points="25.508,4.73 25.131,4.5 14,10.875 14,28.5 14.506,28.73 14.506,11.082 	"/>
-	<polygon class="isometric_zeven" points="14.506,11.082 14.506,28.73 25.508,22.378 25.508,4.73 	"/>
-	<path class="isometric_negen" d="M24.285,9.903l-8.557,4.94v-1.875l8.557-4.94V9.903z M24.285,11.668l-8.557,4.94v1.765l8.557-4.94
-		V11.668z M24.285,15.197l-8.557,4.94v1.765l8.557-4.94V15.197z M24.285,18.727l-8.557,4.94v1.765l8.557-4.94V18.727z"/>
+<g
+   id="g3">
+	
+	
+	
+	
+	<g
+   id="g4"
+   transform="matrix(1.2982557,0,0,1.2982557,-5.1018481,-5.5705185)"><polygon
+     class="isometric_twaalf"
+     points="7.437,11.082 7.437,28.73 14.492,24.59 14.492,10.875 18.44,8.64 18.44,4.73 "
+     id="polygon1" /><path
+     class="isometric_dertien"
+     d="M 7.437,11.082 V 28.73 L 7.062,28.5 7,10.875 18.062,4.5 18.439,4.73 Z m 9.78,-1.738 V 8.028 l -8.557,4.94 v 1.875 l 5.832,-3.408 V 10.874 Z M 8.66,16.608 v 1.765 l 5.832,-3.415 v -1.761 z m 0,3.53 v 1.765 l 5.832,-3.422 V 16.72 Z m 0,3.529 v 1.765 l 5.832,-3.429 v -1.761 z"
+     id="path1" /><polygon
+     class="isometric_acht"
+     points="14,28.5 14.506,28.73 14.506,11.082 25.508,4.73 25.131,4.5 14,10.875 "
+     id="polygon2" /><polygon
+     class="isometric_zeven"
+     points="25.508,4.73 14.506,11.082 14.506,28.73 25.508,22.378 "
+     id="polygon3" /><path
+     class="isometric_negen"
+     d="m 24.285,9.903 -8.557,4.94 v -1.875 l 8.557,-4.94 z m 0,1.765 -8.557,4.94 v 1.765 l 8.557,-4.94 z m 0,3.529 -8.557,4.94 v 1.765 l 8.557,-4.94 z m 0,3.53 -8.557,4.94 v 1.765 l 8.557,-4.94 z"
+     id="path3" /></g>
 </g>
 </svg>
