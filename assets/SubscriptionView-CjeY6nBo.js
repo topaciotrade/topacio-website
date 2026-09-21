@@ -1,0 +1,1 @@
+import{_ as t,m as e,n as o,q as a}from"./index-19_qsDom.js";const c={class:"subscription"},i={__name:"SubscriptionView",setup(n){return(r,s)=>(a(),e("main",c,[...s[0]||(s[0]=[o("h1",{class:"title"},"Subscription IT'S COMING",-1)])]))}},p=t(i,[["__scopeId","data-v-410e6026"]]);export{p as default};
