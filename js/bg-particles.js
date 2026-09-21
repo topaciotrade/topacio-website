@@ -404,27 +404,44 @@ function weightedRange(to, from, decimalPlaces, weightedRange, weightStrength) {
 
 var particles
 ;(function () {
-  if (createjs) {
-    particles = new ParticleEngine('projector')
-    createjs.Ticker.addEventListener('tick', updateCanvas)
-    window.addEventListener('resize', resizeCanvas, false)
+  
+  window.addEventListener("load", function (event) {
+    if (createjs) {
+      particles = new ParticleEngine('projector')
+      createjs.Ticker.addEventListener('tick', updateCanvas)
+      window.addEventListener('resize', resizeCanvas, false)
+  
+      function updateCanvas() {
+        // ALPHA = fondo plano: pausar el motor (no solo taparlo) en cualquier
+        // dispositivo. El ticker reevalúa el pathname en cada frame, así que
+        // la navegación SPA alterna el estado sin tocar el router.
+        var enAlpha = window.location.pathname.indexOf('/alpha') !== -1
 
-    function updateCanvas() {
-      particles.render()
+        if (enAlpha) {
+          if (particles.stage.runing) {
+            particles.stop()
+            document.body.classList.add('bokeh-off')
+          }
+          return
+        }
 
-      if (
-        isMobile.any() != null &&
-        particles.stage.runing &&
-        window.location.pathname.includes('/alpha')
-      ) {
-        particles.stop()
+        if (!particles.stage.runing) {
+          // volver a una página pública: recrear el motor sobre el mismo canvas
+          particles = particles.restarting()
+          document.body.classList.remove('bokeh-off')
+        } else {
+          particles.render()
+        }
+      }
+  
+      function resizeCanvas() {
+        particles.resize()
       }
     }
 
-    function resizeCanvas() {
-      particles.resize()
-    }
-  }
+  });
+
+  
 
   // console.log({particles});
 })()

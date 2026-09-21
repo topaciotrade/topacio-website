@@ -1,0 +1,40 @@
+{
+  "short_name": "TopacioTrade",
+  "name": "Descentralización Web3, Blockchain y NFT | Trading Scalping y Automatización",
+  "icons": [
+    {
+      "src": "/img/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/img/favicon/android-icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    }
+  ],
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "background_color": "#252d34",
+  "display": "fullscreen",
+  "scope": "/",
+  "theme_color": "#252d34",
+  "shortcuts": [
+    {
+      "name": "topacio.link",
+      "short_name": "TopacioTrade",
+      "description": "Topacio Trade | Descentralización con Web3, Blockchain y NFT | Trading Scalping y Automatización",
+      "url": "/today?source=pwa",
+      "icons": [{ "src": "/img/favicon/android-icon-192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Topacio Trade | Descentralización Web3, Blockchain y NFT | Trading Scalping y Automatización",
+  "screenshots": [
+    {
+      "src": "/img/preview_mobile.png",
+      "type": "image/png",
+      "sizes": "357x771",
+      "form_factor": "narrow"
+    }
+  ]
+}
