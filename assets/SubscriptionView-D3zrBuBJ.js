@@ -1,0 +1,1 @@
+import{_ as t}from"./index-DJXjuLrT.js";import{k as e,l as o,j as r}from"./vue-VIrVNOOW.js";import"./preload-helper-CLcXU_4U.js";const i={class:"subscription"},a={__name:"SubscriptionView",setup(c){return(n,s)=>(r(),e("main",i,[...s[0]||(s[0]=[o("h1",{class:"title"},"Subscription IT'S COMING",-1)])]))}},l=t(a,[["__scopeId","data-v-410e6026"]]);export{l as default};
